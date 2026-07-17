@@ -77,7 +77,7 @@ app.use('/', require('./tugas_status'));
 app.use('/kepala-desa', require('./kepala_desa'));
 app.use('/kepala-desa/login', require('./kepala_desa_login'));
 app.use('/kepala-desa/register', require('./kepala_desa_register'));
-app.use('/buat-jadwal', require('./buat_jadwal'));
+
 // =======================
 // ROUTE KHUSUS ADMIN HTML
 // =======================
